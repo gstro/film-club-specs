@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "maven": {
+    "dependencies": [
+      "com.disneystreaming.alloy:alloy-core:0.3.14",
+      "software.amazon.smithy:smithy-validation-model:1.50.0",
+      "software.amazon.smithy.typescript:smithy-aws-typescript-codegen:0.22.0"
+    ]
+  },
+  "plugins": {
+    "typescript-ssdk-codegen": {
+      "package": "@com.filmclub/film-service",
+      "packageVersion": "0.0.1"
+    }
+  },
+  "sources": [
+    "specs"
+  ]
+}
